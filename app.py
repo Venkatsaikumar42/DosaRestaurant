@@ -13,3 +13,10 @@ for order in orderdata:
 print(customers)
 print("-----------\n")
 print(items_info)
+
+customer_output_file='customers.json'
+items_output_file='items.json'
+with open(customer_output_file, 'w') as file:
+    json.dump(customers,file,indent=4)
+with open(items_output_file, 'w') as file:
+    json.dump(items_info,file,indent=4)
