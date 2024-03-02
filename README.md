@@ -13,6 +13,7 @@ This Python program processes order data from a JSON file and extracts customer 
 ````
 
 2. To run this project:
+```
    python app.py your_data.json
 ````
 
