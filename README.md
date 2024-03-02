@@ -13,10 +13,9 @@ This Python program processes order data from a JSON file and extracts customer 
 
 
 2. To run this project:
-```sh
+   ```sh
    python app.py your_data.json
-
-````
+   ````
 ## Requirements
 - Python 3.x
 - argparse (for command-line argument parsing)
